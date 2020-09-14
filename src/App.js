@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 import Country from './components/Country/Country';
 import {
@@ -8,7 +8,6 @@ import {
   Link
 } from "react-router-dom";
 import NotFound from './components/Country/NotFound/NotFound';
-import SingleCountry from './components/Country/SingleCountry/SingleCountry';
 import CountryDetails from './components/Country/CountryDetails/CountryDetails';
 function App() {
  
